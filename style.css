@@ -23,7 +23,7 @@ a:hover {
 }
 
 .topnav { 
-    padding-top: 19px;
+    padding-top: 16px;
     padding-left: 10px;
     padding-right: 20px;
 }
@@ -46,9 +46,16 @@ a:hover {
 
 .gmail, .images, .apps, .signin { 
     float: right;
-    margin-right: 15px;
     padding-left: 5px;
     padding-right: 10px;
+}
+
+.gmail, .images { 
+    padding-right: 12px;
+}
+
+.images { 
+    padding-right: 14px;
 }
 
 .about, .store { 
@@ -63,10 +70,6 @@ li {
     padding-left: 10px;
     padding-right: 0px;
     line-height: 30px;
-}
-
-.images { 
-    padding-right: 8px;
 }
 
 .apps {
@@ -84,14 +87,18 @@ li {
     opacity: 1; 
 }
 
+.signin { 
+    padding-left: 0px;
+}
+
 #signinbutton {
     background-color: rgb(66, 133, 244);
     color: white;
     font-family: arial, sans-serif;
     font-size: 13px;
     font-weight: 700;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
     border-radius: 2px;
     display: inline-block;
 }
@@ -105,24 +112,35 @@ li {
 }
 
 .logo { 
-    padding-top: 155px;
+    padding-top: 152px;
 }
 
 .searchbar {
     padding: 10px;
-    padding-bottom: 25px;    
+    padding-bottom: 21px;    
 }
 
 .search { 
     line-height: 34px;
     margin: 12px;
-    width: 495px;
+    width: 485px;
     height: 44px;
-    background: url('http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') no-repeat 456px 10px;
+    background: url('http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') no-repeat 450px 10px;
     background-size: 24px 24px;
     border-radius: 2px;
     border: 1px solid #cccccc;
     box-shadow: 1px 1px 1px #d9d9d9;
+    font-size: 16px;
+    font-family: Arial, sans-serif; 
+}
+
+input {
+    padding: 10px;
+    padding-right: 35px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+    
 }
 
 .search:hover { 
@@ -148,6 +166,8 @@ li {
     height: 36px;
     min-width: 54px;
     padding: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
     text-shadow: none;
     border-color: rgb(242, 242, 242);
     border-radius: 2px;
@@ -155,13 +175,29 @@ li {
 
 .buttons { 
     padding-top: 0px;
-    padding-bottom: 104px;
+    padding-bottom: 23px;
+}
+
+.googlehomehub { 
+    padding-top: 0px;
+    padding-bottom: 57px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.googlehomehub a {
+    color: #1a0dab;; 
+}
+
+.googlehomehub a:visited {
+    color: #609;
 }
 
 .bottomnav { 
     padding: 20px;
     padding-left: 14px;
-    padding-top: 8px;
+    padding-top: 4px;
     border-top-color: black;
     background-color: rgb(242, 242, 242);
     border: 1px solid rgb(228, 228, 228);
